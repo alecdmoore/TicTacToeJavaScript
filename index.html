@@ -9,6 +9,36 @@
   </head>
   <body>
     <h1>TicTacToe</h1>
+    <div class="message-container">
+      <h1 id="message">Enter Names To Begin</h1>
+    </div>
+    <div class="container">
+      <div class="board">
+        <button class="square" id="00"></button>
+        <button class="square" id="01"></button>
+        <button class="square" id="02"></button>
+        <button class="square" id="10"></button>
+        <button class="square" id="11"></button>
+        <button class="square" id="12"></button>
+        <button class="square" id="20"></button>
+        <button class="square" id="21"></button>
+        <button class="square" id="22"></button>
+      </div>
+      <div class="button-container">
+        <form id="player1">
+          <label for="player1"><strong>Player 1: </strong></label>
+          <input type="text" id="player1Name" />
+        </form>
+        <div class="reset-button-container">
+          <button id="start" class="control-btn">Start</button>
+          <button id="reset" class="control-btn">Reset</button>
+        </div>
+        <form id="player2">
+          <label for="player2"><strong>Player 2: </strong></label>
+          <input type="text" id="player2Name" />
+        </form>
+      </div>
+    </div>
     <script src="./scripts.js"></script>
   </body>
 </html>
